@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jpa
+    username: postgres
+    password: kuldip
+    driver-class-name: org.postgresql.Driver
+  Jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: postgresql
+    show-sql: true
